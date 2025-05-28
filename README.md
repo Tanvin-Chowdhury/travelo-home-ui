@@ -27,9 +27,8 @@ This is a travel-themed landing page built using HTML and CSS, designed as a lea
 ![image](https://github.com/user-attachments/assets/8824d138-90b1-4dcd-a14b-41942987037d)
 ![image](https://github.com/user-attachments/assets/328288d9-274f-4671-a284-6b4f82205552)
 ![image](https://github.com/user-attachments/assets/596b4c11-8af0-498e-ae3b-5fa0cd092b74)
-![design](https://github.com/user-attachments/assets/e9799e1f-cf3e-4c86-8b5f-3ae12a10b93e)
-
-
+![image](https://github.com/user-attachments/assets/d7171d6f-eb59-4a82-999d-f8d73f4f3abc)
+![image](https://github.com/user-attachments/assets/623ba959-beb1-4991-b26d-ae1ded9da523)
 
 ## 🙋‍♂️ Author
 - Tanvin Chowdhury – https://github.com/Tanvin-Chowdhury
