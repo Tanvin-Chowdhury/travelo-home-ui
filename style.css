@@ -1,0 +1,228 @@
+/* laptop device */
+@media screen and (max-width: 1200px) {
+    .banner-content h1 {
+        font-size: 48px;
+    }
+
+    .service-card {
+        padding: 80px 20px;
+    }
+
+    .story-image img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    } 
+}
+
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#FFFFFF, #EBDCFF);
+}
+
+.btn{
+    background-color: #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    border: 2px solid #872BFF;
+    cursor: pointer;
+    margin-right: 20px;
+    width: 145px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-white{
+    border: 2px solid #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: white;
+    width: 170px;
+    height: 50px;
+    font-weight: bold;
+}
+
+#banner{
+    margin: 100px auto 120px auto; /*top right bottom right */
+    border: 2px solid #872BFF10;
+    padding: 20px 30px;
+    width: 87.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    background-image: url("images/hero-bg.png");
+    background-color: white;
+}
+
+.banner-content{
+    width: 50%;
+}
+
+.banner-content *{
+    margin-bottom: 36px;
+}
+
+.banner-content h1{
+    font-size: 70px;
+    width: bold;
+}
+
+.banner-content p{
+    font-weight: medium;
+    font-size: 18px;
+    color: #A8A8A8;
+}
+
+.banner-content h1 span{
+    color: #F411CF;
+}
+
+.banner-image{
+    width: 50%;
+}
+
+.banner-image img{
+    width: 600px;
+}
+
+
+.heading-content{
+    text-align: center;
+}
+
+.heading-content h4{
+    color: #F411CF;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.heading-content h2 {
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 60px;
+}
+
+#service, 
+#story,
+#country, 
+#tourist-container{
+    width: 87.5%;
+    margin: 0px auto 120px auto;
+}
+
+#service-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.service-card{
+    background-color: white;
+    border-radius: 30px;
+    padding: 100px 60px;
+    text-align: center;
+    width: 350px;
+    /* height: 450px; */
+}
+
+.service-card img{
+    margin-bottom: 40px;
+    /* margin-top: 30px;
+    width: 70px;
+    height: 70px; */
+}
+
+.service-card h2{
+    font-weight: semibold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.service-card p{
+    color: #A8A8A8;
+    padding: 20px;
+}
+
+.story-card{
+    background-color: white;
+    border-radius: 24px;
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.story-content h2,
+.story-content p,
+.story-content img{
+    margin-bottom: 30px;
+}
+
+#country-card-container{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#country-card-container h2{
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.button{
+    background-color: #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    border: 2px solid #872BFF;
+    cursor: pointer;
+    margin-right: 20px;
+    width: 153px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 45%;
+}
+
+#review-container{
+    background-color: white;
+    margin: 60px 0px 60px 0px;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+#review-container p{
+    margin: 24px 24px 24px 24px;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.6;
+}
+
+#review-container h5 {
+    margin-top: 60px;
+    font-size: 22px;
+    font-weight: 400;
+    background-image: url("images/star-reviews.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
